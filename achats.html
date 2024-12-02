@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KA.TRIBALART - Accueil</title>
+    <link rel="stylesheet" href="achats.css">
+</head>
+<body>
+    <header>
+        <div class="logo1">
+        <img src="images/Logo1.png" alt="Logo1" width="150" height="150">
+    </div>
+    <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="objets.html">Objets d'art</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li> <a href="achats.html">Achats</a></li>
+            </ul>
+        </nav>
+        <div class="logo_panier">
+            <img src="images/Logo_panier.png" alt="logo_panier" width="100">
+        </div>
+        <div class="logo2">
+            <img src="images/logo2.png" alt="logo2" width="150" height="150">
+        </div>
+         </header>
+         <main>
+            <div class="reliquaire_bakota">
+        <img src="images/reliquaire_bakota.png" alt="reliquaire_bakota" width="600" height="600">
+    </div>
+        <h2>Confirmer votre achat</h2>
+        <form id="achat-form">
+            <select id="objet" name="objet" required>
+                <option value="" data-price="0">-- Sélectionnez un objet --</option>
+                <option value="tete_oba" data-price="1000">Tête Oba</option>
+                <option value="masque_tchokwe" data-price="1500">Masque Tchokwé</option>
+                <option value="statue_nkisi" data-price="2500">Statue Nkisi</option>
+                <option value="masque_baoule" data-price="350">Masque Baoulé</option>
+                <option value="statue_bacongo" data-price="1200">Statue Bacongo</option>
+                <option value="tete_ife" data-price="2600">Tête Ifé</option>
+            </select>
+          <p id="prix-affiche">Prix : 0 €</p>
+          <div class="button">
+         <button type="button" id="ajouter-panier">Confirmer et ajouter au panier</button>
+        </div>
+        </form>
+        <div class="masque_punu">
+        <img src="images/Masque_Punu_36_cm.png" alt="Masque_Punu_36_cm" width="600" height="600">
+    </div>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/"><img src="images/icone_facebook.png" alt="Facebook" width="40"></a>
+           <a href="https://www.instagram.com/"><img src="images/icone_instagram.png" alt="Instagram" width="40"></a>
+           <p>KA.TRIBALART@GMAIL.com</p> 
+       <P>06 65 18 08 89</p>
+       <a href="https://www.etsy.com/"><img src="images/Logo_etsy.png" alt="Etsy" width="60"></a>
+       <a href="https://www.ebay.fr/mys/active"><img src="images/Logo_ebay.png" alt="Logo_ebay" width="50"></a>
+       </footer>
+</body>
+<script src="achats.js"></script>
+</html>
