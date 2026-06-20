@@ -42,14 +42,12 @@ nav ul :hover {
   }
 
  
-
 main img {
     display: flex;
-   flex-direction: colum;
-   align-items: center;
-   margin-left: 500px;
-   box-sizing: border-box;
-  border: 10px solid rgb(255, 251, 251);
+    flex-direction: column;
+    transform: translateX(500px);
+box-sizing: border-box;
+border: 10px solid rgb(255, 251, 251); 
  }
 
  header,

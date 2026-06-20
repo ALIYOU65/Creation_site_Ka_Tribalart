@@ -50,8 +50,8 @@ h2 {
  .bloc_images_texte1,
  .bloc_images_texte2 {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
+ justify-content: space-around;
+ align-items: center;
     text-align: center;
     margin:   16px;
 }

@@ -68,14 +68,13 @@ h2 {
     margin:   16px;
    }
 
-.description {
+   .description {
     box-sizing: border-box;
-    border: 10px solid rgb(255, 251, 251); 
+        border: 10px solid rgb(255, 251, 251); 
     background-color:black;
-    width: 1260px;
+    width: 1270px;
     margin-left: 143px;
     padding-top: 15px;
-margin-inline-end: 15px;
 }
 
 footer {

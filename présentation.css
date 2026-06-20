@@ -48,16 +48,13 @@ nav ul :hover {
      background-color:black;
     color: #fff;
     width: 950px;
-    margin-left: 330px;
+    transform: translateX(330px);
    text-align: center;
 }
 
 
 main img {
-    display: flex;
-   flex-direction: colum;
-   align-items: center;
-   margin-left: 500px;
+    transform: translateX(500px);
    box-sizing: border-box;
         border: 10px solid rgb(255, 251, 251); 
     }

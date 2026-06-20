@@ -62,7 +62,7 @@ h2 {
  .bloc_images2,
  .bloc_images3 {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin:   16px;
@@ -72,7 +72,7 @@ h2 {
     box-sizing: border-box;
         border: 10px solid rgb(255, 251, 251); 
     background-color:black;
-    width: 1260px;
+    width: 1270px;
     margin-left: 143px;
     padding-top: 15px;
 }

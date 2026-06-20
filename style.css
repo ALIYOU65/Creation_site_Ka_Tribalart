@@ -29,10 +29,9 @@ nav ul li a {
     font-weight: bold;
  }
 
-nav ul li a:hover {
+nav ul li:hover {
     background-color: black;
-    color: white;
-}
+    }
 
 .logo1, 
 .logo2 {
@@ -184,7 +183,7 @@ main {
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding: 10px 0;
 }
@@ -256,24 +255,28 @@ main {
     }
   
     header {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px 0;
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:flex-start;
     }
   
     header nav ul {
       flex-direction: column;
-      align-items: center;
-      padding: 0;
-    }
-  
-    header nav ul li {
-      margin: 5px 0;
+      gap: 15px;
     }
   
     header nav ul li a {
       font-size: 12px;
       text-align: center;
+    }
+
+    
+
+    .logo1,
+    .logo2 {
+        max-width: 125px;
+        max-height: 300px;
+        margin: 5px;
     }
   
     main {
@@ -287,32 +290,54 @@ main {
       text-align: justify;
     }
   
-    main img {
-      width: 80%;
-      margin: 10px auto;
-      display: block;
+    .images {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
     }
-  
-    .bloc_images1,
-     .bloc_images2, 
-     .bloc_images3 {
+
+    .image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc_images_texte1,
+    .bloc_images_texte2 {
+       display: flex;
+       flex-direction: column;
+    align-items: center;
+       text-align: center;
+       margin:   16px;
+      }
+   
+   .bloc_images1,
+   .bloc_images2,
+   .bloc_images3 {
+      display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 10px 0;
+      text-align: center;
+      margin:   16px;
     }
-  
-    .description {
-      width: 90%;
-      margin: 10px auto;
-      font-size: 12px;
-      text-align: justify;
-    }
+
+.description {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: justify;
+      }
   
     footer {
+        display: flex;
       flex-direction: column;
       text-align: center;
+      justify-content: center;
       padding: 10px;
+      height: 100%;
     }
+
+   
   
     footer p {
       margin: 5px 0;
